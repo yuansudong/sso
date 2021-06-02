@@ -1,0 +1,8 @@
+AppName: "sso" # App的应用名称
+Description: "单点登录工程" # 关于该App的名字
+Path: "." # App的代码生成路径
+SubCommand:
+  - Cmd: "cli"
+    Short: "sso应用程序接口"
+    Long: "该部分包含着,应用程序的更新"
+    Rune: { PkgPath: "github.com/yuansudong/sso", PkgAliase: "pkg中的别名" }
